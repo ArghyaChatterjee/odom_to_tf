@@ -16,7 +16,7 @@ source devel/setup.bash
 roslaunch odom_to_tf publish_odom_to_tf.launch
 ```
 
-## Change the topic & frames
+## Change the topic & frames inside launch file
 ```
   <!-- Odometry topic to listen to -->
   <arg name="odometryTopic" default="/curiosity_mars_rover/odom" />
